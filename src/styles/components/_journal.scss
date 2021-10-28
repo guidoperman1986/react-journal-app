@@ -11,12 +11,14 @@
     padding-left: 10px;
     padding-right: 10px;
     width: 450px;
-
 }
 
 .journal__sidebar-navbar{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
 }
 
 .journal__sidebar-navbar h3{
@@ -42,7 +44,8 @@
 .journal__entries {
     margin-top: 30px;
     flex: 1 1 auto;
-    overflow-y: scroll;
+    overflow-y: auto;
+    margin-bottom: 20px;
 }
 
 .journal__entry{
